@@ -49,7 +49,7 @@ const game = {
     load: function(){
       for( let key in this.sprites){
         this.sprites[key] = new Image();
-        this.sprites[key].src = "https://i.pinimg.com/originals/55/0c/a1/550ca15756e34de782e8601fb26b1b70.jpg";
+        this.sprites[key].src = "./assets/img/" + key + ".png";
       }
     },
 
